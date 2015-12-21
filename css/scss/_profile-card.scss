@@ -1,0 +1,33 @@
+h4 {
+  color: #416A7A;
+}
+
+.card-container {
+  margin: 30px auto;
+  height: 200px;
+  width: 600px;
+  background-color: #eee;
+  padding: 15px;
+
+  .card-first-name {
+    display: inline-block;
+    font-size: 24px;
+    margin-right: 5px;
+  }
+
+  .card-last-name {
+    display: inline-block;
+    font-size: 24px;
+  }
+
+  .card-position {
+    color: #416A7A;
+  }
+
+  img {
+    float: right;
+    height: 140px;
+    width: 140px;
+  }
+
+}

@@ -1,0 +1,74 @@
+.inner {
+  margin: 100px auto;
+  text-align: center;
+
+  .big-input {
+    margin: 0 auto;
+    display: block;
+    width: 300px;
+  }
+
+  .text-area {
+    width: 300px;
+    height: 100px;
+    margin-top: 10px;
+    border-color: #eee;
+
+    &:focus {
+      outline: none;
+      border-color: blue;
+    }
+  }
+
+  .input-form {
+    input {
+      border: none;
+      border-bottom: 1px solid #eee;
+      height: 40px;
+      font-size: 14px;
+
+      &:focus {
+        outline: none;
+        border-color: blue;
+      }
+
+    }
+  }
+
+  .xl-input {
+    height: 100px;
+  }
+
+  #submit-btn {
+    //btn reset
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    border-spacing: 0;
+    color: #eee;
+    font-family: 'PT Sans Narrow',sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.42rem;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0;
+    //end of btn reset
+
+    display: block;
+    margin: 30px auto;
+    border: 1px solid #eee;
+    padding: 5px;
+
+    &:hover {
+      color: #26589f;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+}
